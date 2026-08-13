@@ -1,0 +1,14 @@
+/* Simple styles for the demo map and list */
+html,body{height:100%;margin:0;font-family:Arial,Helvetica,sans-serif}
+header{padding:12px;background:#0b5; color:#012;}
+header h1{margin:0;font-size:1.2rem}
+#controls{margin-top:8px}
+#controls input{padding:6px;width:260px}
+#controls button{padding:6px;margin-left:6px}
+main{display:flex;height:calc(100% - 140px)}
+#map{flex:1}
+#list{width:320px;overflow:auto;padding:12px;background:#f7f7f7}
+.poi{padding:8px;border-bottom:1px solid #ddd}
+.poi h3{margin:0 0 4px 0}
+.poi p{margin:0;font-size:0.9rem;color:#333}
+footer{padding:8px;text-align:center;font-size:0.8rem;color:#666}

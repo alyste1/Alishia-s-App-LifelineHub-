@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lifeline Hub — Demo</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-sA+e2Zb8qY7v1gFvVb6wM3G0v4q7sKkzv+3w1F4h3uM=" crossorigin=""/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Lifeline Hub — Demo</h1>
+    <p>Client-only demo using sample POIs (no backend). This is free to host via GitHub Pages.</p>
+    <div id="controls">
+      <input id="search" placeholder="Search by name or category" />
+      <button id="clear">Clear</button>
+    </div>
+  </header>
+  <main>
+    <div id="map"></div>
+    <aside id="list"></aside>
+  </main>
+
+  <footer>
+    <small>Data: sample demo entries. Map tiles: © OpenStreetMap contributors</small>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j8kLk6fYfKkXk7r6G6q0s5m3q9P6p4+1d2v9y+M=" crossorigin=""></script>
+  <script src="main.js"></script>
+</body>
+</html>

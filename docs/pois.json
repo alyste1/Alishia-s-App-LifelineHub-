@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Community Health Center",
+    "category": "Healthcare",
+    "description": "Open 24/7",
+    "lat": 37.7749,
+    "lon": -122.4194,
+    "address": "123 Market St, San Francisco, CA",
+    "phone": "(415) 555-0100",
+    "website": ""
+  },
+  {
+    "id": 2,
+    "name": "Downtown Shelter",
+    "category": "Shelter",
+    "description": "Emergency shelter",
+    "lat": 37.7750,
+    "lon": -122.4183,
+    "address": "200 3rd St, San Francisco, CA",
+    "phone": "(415) 555-0123",
+    "website": ""
+  }
+]
